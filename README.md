@@ -3,7 +3,8 @@ This event is a unique opportunity to explore astronomy data and solve problems 
 https://adacs.org.au/index.php/sky-mining-hackathon/
 
 ## Challenges
-1 Efficient catalogue cross-matching – Paul Hancock (Curtin University)
+###1 
+Efficient catalogue cross-matching – Paul Hancock (Curtin University)
 Variations in the brightness of objects in the sky over time can be the result of a range of exciting astronomical phenomena – from exploding stars to black holes. Identification of these events from their light curves means that we need to first form these light curves by joining many catalogues.
 
 This joining, or cross-matching, process presents a number of challenges – uncertainties in position, source confusion, missing data, and weird shaped sources. We currently have a few methods that work OK when the catalogues are very well behaved, but which are either very slow, or make many errors.
@@ -12,7 +13,8 @@ Creating an effective, efficient, and scalable solution would greatly assist in 
 
  
 
-2 De-noising of spectra – Helga Denes (ANU)
+###2 
+De-noising of spectra – Helga Denes (ANU)
 Decomposing complex spectra made up of multiple, potentially overlapping Gaussian components is a challenge for Galactic and extragalactic astrophysics, but is critical for understanding the properties of gas within galaxies.
 
 Our team is currently using a code called GaussPy (Lindner et al. 2015) that autonomously decomposes spectra into Gaussian components. which improves upon previous methodologies (namely by-hand decomposition) by removing the need for human input (and subjectivity!), increasing the reproducibility, and allowing for the decomposition of large samples of data. GaussPy identifies different Gaussian components by finding inversions in the second derivative of the data, but since the data includes noise that mimics inversions, it uses a machine learning algorithm to determine the optimal parameters for first smoothing the data. For lower signal-to-noise data, the maximum confidence level of the decomposition produced by GaussPy is low (at best ~70%, Murray et al. 2017) and primarily due to the difficulty in separating the noise from the spectral signal using only smoothing.
