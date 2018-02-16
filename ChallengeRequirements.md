@@ -25,6 +25,9 @@ _Technical info_
 - Sample catalogs for crossmatching are provided (csv format) in this repo
 - No specific software is needed to read the data
 
+*Background reading/info:*
+- additional info is provided in this repo
+
 *Challenge specific judging criteria*
 - Who gets the highest correct cross-matching score
 - This is assessed automatically by software
@@ -54,10 +57,10 @@ On behalf of Helga Denes (ANU), Boyang Liu, University of Western Australia
 *Technical info/skills*
 
 - You can work on your own computer or work on a Nimbus VM provided by Pawsey
-- data is provided with this repo
+- data is provided in this repo
 
 *Background reading/info:*
-- additional info is provieded in this repo
+- additional info is provided in this repo
 
 *Challenge specific judging criteria*
 - TBC
