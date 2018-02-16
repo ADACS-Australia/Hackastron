@@ -1,4 +1,4 @@
-# Hackastron
+# Sky Mining Hackastron
 This event is a unique opportunity to explore astronomy data and solve problems directly from astronomers across Australia. 
 Participants will also have the opportunity to win a grand prize of $2,000 if they successfully solve one of the challenges and are then judged to have produced the over-all best solution across all challenges.
 
