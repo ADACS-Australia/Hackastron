@@ -127,6 +127,7 @@ Rebecca Lange (Curtin University)
 - Galaxy And Mass Assembly (GAMA): mass-size relations of z = 0 bulges, discs and spheroids - http://adsabs.harvard.edu/abs/2016MNRAS.462.1470L
 - Note, we think bulge fraction for real images can only be measured within 10% accuracy, simulated images are far more accurate
 - ML image classification, transfer learning
+- possible alternative to a nural net? https://arxiv.org/pdf/1702.08835.pdf
 
 *Challenge specific judging criteria*
 - Implement an ML algorithm to classify galaxies according their bulge-to-total (B/T) ratio 
