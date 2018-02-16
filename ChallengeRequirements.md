@@ -189,7 +189,7 @@ Bradley Meyers, Marcin Sokolowski, Paul Hancock (Curtin University)
 *Technical info*
 - A computer with the required software (and hardware) and data has been set up, log in info will be handed out in person
 
-- *Python:*
+- **Python:**
 We currently have a MPI-enabled Python script that is able to do these computations, but it is relatively slow, taking hours 
 to complete. The primary issue is that we are required to calculate the beam pattern for each “direction” on the sky, which 
 amounts to computing values for over 3 billion points. This also poses an interesting issue surrounding effective memory management 
@@ -197,7 +197,7 @@ and worker load within Python which typically removes the user from any direct m
 implemented such that if we have N workers, then the sky is split into N chunks and each worker then evaluates the beam pattern 
 for every point on the grid within its allocated range. Optimising this code to be faster or more efficient would be of great benefit 
 to the processing of MWA VCS data.
-- *C/C++/CUDA:*
+- **C/C++/CUDA:**
 There is also a C/CUDA version for part of this code, which drastically reduces the computation time for some calculations, and 
 again acts to split the sky up (based on device memory constraints). This part of the code takes roughly 5 minutes (including file I/O) 
 to form the tied-array beam pattern over the whole sky, but it does not include the weighting provided by the individual tile beam 
